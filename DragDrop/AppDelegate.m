@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //hello dude
+    UIWindow *win = [[UIWindow alloc] init];
     return YES;
 }
 
