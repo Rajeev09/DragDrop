@@ -123,6 +123,8 @@ CGPoint mult(const CGPoint v, const CGFloat s) {
         CGPoint newPos = CGPointMake(position.x + translation.x, position.y + translation.y);
         [_background setPosition:[self boundLayerPos:newPos]];
     }
+    
+    //hell
 }
 
 

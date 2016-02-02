@@ -19,6 +19,7 @@
     // Override point for customization after application launch.
     //hello dude
     UIWindow *win = [[UIWindow alloc] init];
+    //bak ....
     return YES;
 }
 
