@@ -17,6 +17,12 @@
 		529E970B1C0B0B8B00130C93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529E97091C0B0B8B00130C93 /* LaunchScreen.storyboard */; };
 		529E97161C0B0B8B00130C93 /* DragDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 529E97151C0B0B8B00130C93 /* DragDropTests.m */; };
 		529E97211C0B0B8B00130C93 /* DragDropUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 529E97201C0B0B8B00130C93 /* DragDropUITests.m */; };
+		529E97351C0B0BD800130C93 /* attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = 529E972F1C0B0BD800130C93 /* attribution.txt */; };
+		529E97361C0B0BD800130C93 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 529E97301C0B0BD800130C93 /* bird.png */; };
+		529E97371C0B0BD800130C93 /* blue-shooting-stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 529E97311C0B0BD800130C93 /* blue-shooting-stars.png */; };
+		529E97381C0B0BD800130C93 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 529E97321C0B0BD800130C93 /* cat.png */; };
+		529E97391C0B0BD800130C93 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 529E97331C0B0BD800130C93 /* dog.png */; };
+		529E973A1C0B0BD800130C93 /* turtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 529E97341C0B0BD800130C93 /* turtle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +62,12 @@
 		529E971C1C0B0B8B00130C93 /* DragDropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragDropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		529E97201C0B0B8B00130C93 /* DragDropUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragDropUITests.m; sourceTree = "<group>"; };
 		529E97221C0B0B8B00130C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529E972F1C0B0BD800130C93 /* attribution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = attribution.txt; sourceTree = "<group>"; };
+		529E97301C0B0BD800130C93 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		529E97311C0B0BD800130C93 /* blue-shooting-stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-shooting-stars.png"; sourceTree = "<group>"; };
+		529E97321C0B0BD800130C93 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		529E97331C0B0BD800130C93 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		529E97341C0B0BD800130C93 /* turtle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,7 @@
 		529E96F51C0B0B8B00130C93 /* DragDrop */ = {
 			isa = PBXGroup;
 			children = (
+				529E972E1C0B0BD800130C93 /* DragDropImages */,
 				529E96F91C0B0B8B00130C93 /* AppDelegate.h */,
 				529E96FA1C0B0B8B00130C93 /* AppDelegate.m */,
 				529E96FC1C0B0B8B00130C93 /* GameScene.h */,
@@ -146,6 +159,19 @@
 				529E97221C0B0B8B00130C93 /* Info.plist */,
 			);
 			path = DragDropUITests;
+			sourceTree = "<group>";
+		};
+		529E972E1C0B0BD800130C93 /* DragDropImages */ = {
+			isa = PBXGroup;
+			children = (
+				529E972F1C0B0BD800130C93 /* attribution.txt */,
+				529E97301C0B0BD800130C93 /* bird.png */,
+				529E97311C0B0BD800130C93 /* blue-shooting-stars.png */,
+				529E97321C0B0BD800130C93 /* cat.png */,
+				529E97331C0B0BD800130C93 /* dog.png */,
+				529E97341C0B0BD800130C93 /* turtle.png */,
+			);
+			path = DragDropImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,9 +278,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				529E97001C0B0B8B00130C93 /* GameScene.sks in Resources */,
+				529E973A1C0B0BD800130C93 /* turtle.png in Resources */,
 				529E970B1C0B0B8B00130C93 /* LaunchScreen.storyboard in Resources */,
+				529E97381C0B0BD800130C93 /* cat.png in Resources */,
+				529E97391C0B0BD800130C93 /* dog.png in Resources */,
+				529E97361C0B0BD800130C93 /* bird.png in Resources */,
 				529E97081C0B0B8B00130C93 /* Assets.xcassets in Resources */,
 				529E97061C0B0B8B00130C93 /* Main.storyboard in Resources */,
+				529E97351C0B0BD800130C93 /* attribution.txt in Resources */,
+				529E97371C0B0BD800130C93 /* blue-shooting-stars.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
